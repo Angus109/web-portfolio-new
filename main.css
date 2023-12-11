@@ -1,9 +1,11 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Poppins:ital,wght@0,400;1,200;1,400;1,600;1,800;1,900&display=swap');
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,300;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400;1,600;1,800;1,900&display=swap');
 
 body{
+    font-family: 'Open Sans', sans-serif;
     
-    font-family: 'Poppins', sans-serif;
 }
 
   
@@ -130,7 +132,6 @@ header a:hover{
     --colorbg: #1e001a;
     --primary-btn:#fe8fee;
     --secondary-btn: #28b1fb;
-    --tertiary-btn:  linear-gradient(to right, #fa709a 0%, #fee140 100%);
     --card-bg: #462a42;
     --gradient: red;
   
@@ -175,11 +176,13 @@ button:hover{
 
 
 .primary_btn{
-    padding: 15px 20px;
-    background: var(--primary-btn) ;
-    border: none;
     margin-top: 20px;
     align-items: center;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--primary-btn);
+    font-size: 1rem;
 }
 
 
@@ -194,6 +197,8 @@ button:hover{
 
 a {
     text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 header  a{
@@ -212,11 +217,10 @@ img {
     width: 70%;
     text-align: center;
 }
-.greating h1{
 
-    background: var(--primary-btn) ;
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.greating h1{
+    color: var(--primary-btn) ;
+  
 }
 
 header  nav{
@@ -249,8 +253,7 @@ header  nav{
 }
 
 .greating{
-    padding: 50px 20px;
-    border-left:2px  linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    padding: 50px 0px;
     width: 60%;
 
 
@@ -281,8 +284,8 @@ ul li{
     margin-left: 50px;
 }
 
-.p_overview {
-    width: 55%;
+.overview p {
+    width: 80%;
 }
 
 .cards {
@@ -377,7 +380,7 @@ ul li{
 }
 
 
-.h_overview {
+.overview h1{
     margin-top: 100px;
 }
 
@@ -466,6 +469,7 @@ canvas{
     height: 100%;
     width: 100%;
     opacity: 0;
+    border-radius: 18px;
 
 }
 
@@ -583,14 +587,6 @@ canvas{
      margin-top: -25px;
 
 }
-
-
-
-
-
-
-
-
 
 /*******************contact*******************/
 .contact{
@@ -752,7 +748,7 @@ footer a{
   
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width:480px) and (max-width:680px) {
    
      
 
@@ -767,7 +763,8 @@ footer a{
 
 
     }
-  
+
+   
    
     #header_nav.active  {
 
@@ -779,7 +776,7 @@ footer a{
   
 
     #logo li{
-        padding: 15px 25px;
+        padding: 15px 15px;
     }
 
 
@@ -789,7 +786,7 @@ footer a{
         background-color: var(--primary-btn);
         width: 100%;
         margin: 0;
-        padding: 15px 25px;
+        padding: 15px 15px;
         animation: nav-animate 0.5s ease-out;
     
     
@@ -835,7 +832,7 @@ footer a{
 
 
     .container {
-        margin: 50px 25px;
+        margin: 50px 15px;
     
     }
     .wrap_cont {
@@ -845,6 +842,7 @@ footer a{
 
       .greating {
         width: 100%;
+        padding: 30px 0px;
       }
     
 
@@ -997,6 +995,11 @@ footer a{
         
     
     }
+    #test_cont ul p{
+        padding: 30px 15px;
+        width: 100%;
+    }
+    
     
     
     
@@ -1031,17 +1034,18 @@ footer a{
     form {
         background-color: rgb(61, 7, 61); 
         border-radius: 30px;
-        width:;
+        width:96%;
         height: inherit;
-        padding: 50px;
+        padding: 35px 35px;
         text-align: left;
+        margin: 2%;
 
     
     }
     
     form input {
         background-color: inherit;
-        margin-top: 20px;
+        margin-top: 25px;
         color: white;
     
     }
@@ -1063,6 +1067,216 @@ footer a{
     }
     
 }
+
+/***************************ipad*****************************/
+
+
+@media screen and (min-width: 680px) and (max-width:992px)  {
+
+    #nav_links li{
+        display: inline-block;
+        margin-left: 50px;
+        
+    }
+
+    header nav{
+        padding: 15px 50px;
+    }
+    .container {
+        margin: 50px 50px;
+    
+    }
+    .wrap_cont {
+        width: 80%;
+        height: 320px;
+      }
+
+      .greating {
+        width: 90%;
+        padding: 30px 0px;
+      }
+    
+
+      #typing{
+        width: 100%;
+      }
+    
+
+    
+    .p_overview {
+        width: 100%;
+    }
+
+    .body{
+        width: 80%;
+    }
+
+    .hero_link{
+        width: 100%;
+    }
+    
+    
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 100px;
+        margin-top: 50px;
+    }
+    
+    .cards-cont {
+        padding: 25px;
+        text-align: center;
+    
+    }
+    
+    .svg img {
+        width: 50px;
+        height: 50px;
+    
+    
+    }
+    
+    .h_overview {
+        margin-top: 50px;
+    }
+    
+    .work_experience {
+        margin-top: 50px;
+    }
+    
+    .cards_experience {
+    
+        display: block;
+        border-left: 1px solid  #fe8fee ;
+        border-left-style: dashed;
+        padding-left: 25px;
+    
+    }
+
+    .cards_experience div{
+        margin-left: 0;
+    }
+    cards_experience div:nth-child(2), .cards_experience div:nth-child(4), .cards_experience div:nth-child(6),.cards_experience div:nth-child(8){
+        border-left:none;
+      padding-left:0px ;
+    }
+    
+
+    .dot{
+    visibility: visible;
+  width: 10px;
+  height: 10px;;
+  border-radius: 50px;
+  background-color:  #fe8fee ;
+  margin-left: -30px;
+  position: absolute;
+  display: block;
+
+}
+
+.ex_hidden{
+    display: none;
+}
+
+.dot_hiden{
+    display: block;
+}
+    
+
+   
+    
+    .projects_cards {
+        display: block;
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-top: 50px;
+    }
+    
+    
+    .prev_card {
+        position: relative;
+        width: 60%;
+        margin-top: 50px;
+    
+    }
+    
+    
+    .prev_card img {
+        display: cover;
+        height: 300px;
+        width: 100%;
+
+    
+    }
+    
+   
+    .projects h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .prev_des {
+        width: 100%;
+        text-align: left;
+        margin: auto;
+    }
+    
+    
+    .testimonia ul li  {
+        display: inline-block;
+    }
+    
+    .testimonia img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+        
+    
+    }
+    #test_cont ul p{
+        padding: 30px 15px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    .testimonia canvas {
+        height: 50px;
+        width: 50px;
+        margin: auto;
+        display: block;
+        transform: rotate(45deg);
+        background-color: purple;
+         margin-top: -125px;
+       
+        
+        
+    
+    }
+    
+    /*******************contact*******************/
+    
+    .contact{
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*******************prev website****************/
@@ -1147,7 +1361,9 @@ footer a{
 }
 
 
-@media screen and (max-width: 600px) {
+/**********************small screen size************/
+
+@media screen and (min-width:480px) and (max-width:680px)  {
 
     .prevweb_cont{
         margin-top: 100px;
@@ -1216,14 +1432,4 @@ footer a{
     }
     
 }
-
-
-
-
-
-
-
-
-
-
 

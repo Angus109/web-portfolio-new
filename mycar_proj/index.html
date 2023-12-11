@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/sswiper-bundle.min.css" />
+</head>
+
+<body>
+  <header id="header">
+    <ul class="logo">
+      <li>
+        <a href="index.html">home</a>
+      </li>
+    </ul>
+    <nav>
+
+      <ul id="nav_links">
+        <li><a href="myport.html">produvt</a></li>
+        <li><a href="abt.html">About</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="header_login"><a href="login-form.html">login</a></div>
+    <ul class="nav_btn">
+      <li id="open_menu" >
+        <i class="bi bi-list"></i>
+      </li>
+      <li id="close_menu">
+        <i class="bi bi-list"></i>
+      </li>
+
+    </ul>
+  </header>
+
+
+
+
+
+
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <img class="hero_img" src="asset\lexusRx.jpg">
+      <div class="hero_shade">
+        <h1 class="animate__animated animate__backInLeft" id="hero_text">Welcome to [Your Car Website]
+          
+        </h1>
+        <p>
+          At [Your Car Website], we're passionate about everything related to cars. Whether you're a car enthusiast, a prospective buyer, or simply looking for automotive tips and information, you've come to the right place. Let's explore the world of automobiles together.
+        </p>
+        <button class="secondary_btn">
+          buy car
+        </button>
+      </div>
+    </div>
+    <div class="mySlides">
+
+      <img class="hero_img" src="asset\yellow-sport.jpg">
+      <div class="hero_shade">
+        <h1 class="animate__animated animate__backInLeft" id="hero_text">Your Trusted Partner in Auto Transport Services
+        </h1>
+        <P>
+          
+          At [Your Car Shipping Company], we understand that your vehicle is more than just a means of transportation; it's a valuable asset. That's why we're dedicated to providing safe, reliable, and hassle-free car shipping solutions tailored to your needs.
+        </P>
+        <button class="secondary_btn">
+          buy car
+        </button>
+
+      </div>
+
+    </div>
+   
+   
+    </div>
+    <div class="mySlides">
+
+      <img class="hero_img" src="asset\generic-car.jpg">
+      <div class="hero_shade">
+        <h1 class="animate__animated animate__backInLeft" id="hero_text"> Our Mission
+        </h1>
+        <p>
+         
+          At [Your Car Website], our mission is to empower car enthusiasts and everyday drivers with knowledge and resources to make informed decisions about their vehicles. We're committed to creating a community of car lovers who share a passion for automobiles in all 
+        </p>
+        <button class="secondary_btn">
+          buy car
+        </button>
+      </div>
+    </div>
+    <div class="mySlides">
+
+      <img class="hero_img" src="asset\pngwing.com.png">
+      <div class="hero_shade">
+        <h1 class="animate__animated animate__backInLeft" id="hero_text">Your Trusted Partner in Auto Transport Services
+        </h1>
+        <p>
+          
+          At [Your Car Shipping Company], we understand that your vehicle is more than just a means of transportation; it's a valuable asset. That's why we're dedicated to providing safe, reliable, and hassle-free car shipping solutions tailored to your needs.
+        </p>
+        <button class="secondary_btn">
+          buy car
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+
+
+  <div class="container" id="container">
+    <div class="search_map">
+      <nav>
+        <ul>
+          <li>
+            <a>new car</a>
+            <a>trending</a>
+          </li>
+        </ul>
+
+      </nav>
+      <form class="hero_form" style="margin-top: 15px;">
+        <ul>
+          <li>
+            <input type="text" placeholder="search by car type">
+          </li>
+          </ul>
+          <ul class="select">
+            <li >
+            <input type="date">
+            </li>
+            <li>
+             <input type="date" value="02/22/2004" name="datett">
+              <br><br>
+            </li>
+            <li>
+              <select>
+                <option value="toyota">toyota
+                <option value="lexus">lexus
+                <option value="honda">honda
+                <option selected value="benze">benze
+                <option value="legacy">legacy
+              </select><br><br>
+            </li>
+  
+            <li>
+              <button class="btn" id="map_search-btn" onclick="myFunction">
+                search
+              </button>
+            </li>
+        
+          </ul>
+          </ul>
+      </form>
+
+    </div>
+
+
+    
+
+    <!------------car showcase---------->
+    <div>
+      <h1 style="margin: 50px 20px; text-align: center;">
+        top offers
+      </h1>
+      <div class="purchase_items">
+        <div class="item_cat" data-animation="slideIn">
+          <img src="asset\pngwing.com.png">
+          <ul class="card">
+            <li class="card_text">
+              <h1>electric poweredcar </h1>
+
+              <button class="prev_btn">buy now</button>
+            </li>
+          </ul>
+        </div>
+        <div class="item_cat" data-animation="slideIn">
+          <img src="asset\pngkey.com-innova-png-images-2531963.png">
+          <ul class="card">
+            <li class="card_text">
+              <h1>new trends</h1>
+              <button class="prev_btn">buy now</button>
+            </li>
+          </ul>
+        </div>
+        <div class="item_cat" data-animation="slideIn">
+          <img src="asset\pngkey.com-innova-png-images-2531963.png" >
+          <ul class="card">
+            <li class="card_text">
+              <h1>classics </h1>
+              <button class="prev_btn">buy now</button>
+            </li>
+          </ul>
+        </div>
+       
+
+      </div>
+
+
+
+    </div>
+
+
+    <!----------------------brands---------->
+    <div class="brands">
+      <marquee behavior="scroll" direction="left">
+        <ul>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </li>
+          <lI>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </lI>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+
+          <LI>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </LI>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+
+          <LI>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hilux">
+              <path
+                d="M.088 12.812h1.738c.08 0 .182-.112.216-.244l.341-1.071h1.34l-.341 1.071c-.045.132-.011.244.068.244h1.738c.08 0 .182-.112.216-.244l1.034-3.287c.034-.132 0-.244-.08-.244H4.632c-.08 0-.182.112-.216.244l-.306.978H2.77l.307-.976c.034-.132 0-.244-.08-.244H1.27c-.08 0-.182.112-.216.244L.02 12.568c-.045.132-.011.244.068.244zm6.157 0h1.727c.079 0 .182-.112.227-.244l1.022-3.287c.045-.132.011-.244-.068-.244H7.415c-.079 0-.17.112-.216.244l-1.022 3.287c-.046.132-.012.244.068.244zm2.771 0h3.601c.08 0 .17-.112.216-.244l.239-.695c.045-.132.011-.225-.068-.225h-1.738l.738-2.367c.034-.132 0-.244-.08-.244h-1.727c-.08 0-.182.112-.227.244l-1.022 3.287c-.045.132-.011.244.068.244zm7.259.188c.909-.075 1.443-.319 1.863-1.652l.647-2.065c.045-.132.011-.244-.068-.244h-1.738c-.08 0-.182.112-.216.244l-.023.074-.682 2.16c-.102.281-.182.413-.318.413h-.273c-.136 0-.204-.188-.136-.413.216-.751.477-1.484.704-2.235.045-.132.011-.244-.068-.244H14.24c-.08 0-.182.112-.227.244l-.398 1.277c-.659 2.123.25 2.404.965 2.423l1.695.018zm7.69-4h-2.033c-.068 0-.204.075-.307.188l-.488.488-.409-.488c-.08-.112-.204-.188-.273-.188h-1.363c-.068 0-.034.075.045.188l1.045 1.427-2.033 2.047c-.102.093-.136.188-.068.188h2.033c.068 0 .204-.093.307-.188l.727-.732.523.732c.08.112.216.188.273.188h1.715c.068 0 .045-.093-.045-.188l-1.443-1.747 1.727-1.728c.101-.112.135-.187.067-.187z">
+              </path>
+            </svg>
+          </LI>
+        </ul>
+      </marquee>
+
+    </div>
+
+    <div class="motor_card">
+      <ul>
+        <li>
+          <svg></svg>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque?
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <svg></svg>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque?
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <svg></svg>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque?
+          </p>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <!--------------------container-->
+
+
+    <div class="set_finder">
+      <h1 style="margin: 25px 20px; text-align: center;">
+        Discover Our Features
+      </h1>
+      <div>
+        <ul class="set_finder_left" style="text-align: end;">
+          <li>
+            <h3>Latest Car Reviews:</h3>
+            <p>  Stay updated with in-depth reviews of the newest car models on the market. From performance to design, we provide comprehensive insights to help you make informed decisions.</p>
+          </li>
+          <li>
+            <h3>Door-to-Door Service:</h3>
+            <p> We provide convenient door-to-door pickup and delivery to save you time and hassle.</p>
+          </li>
+          <li>
+            <h3>Timely Delivery:</h3>
+            <p> We understand the importance of prompt delivery. Count on us to meet your scheduling requirements.</p>
+          </li>
+          <li>
+            <h3>Dealer and Auction Transport: </h3>
+            <p>We work with dealerships, auctions, and individuals to transport vehicles efficiently and securely.</p>
+          </li>
+        </ul>
+        <ul>
+          <li class="set_img">
+            <img src="asset\pngwing.com (1).png">
+          </li>
+        </ul>
+        <ul ass="set_finder_right">
+          <li>
+            <h3>Exotic and Classic Cars: </h3>
+            <p>Our enclosed carriers are ideal for transporting high-value and classic cars, ensuring protection from the elements.</p>
+          </li>
+          <li>
+            <h3>Online Tracking:</h3>
+            <p> Stay informed about your shipment's status with our online tracking system. Know where your vehicle is at all times.</p>
+          </li>
+          <li>
+            <h3>Buying Guides:</h3>
+            <p> Looking to purchase a new or used car? Our buying guides offer valuable tips and considerations, making your car-buying journey smoother.</p>
+          </li>
+          <li>
+            <h3>Maintenance Tips:</h3>
+            <p> Keep your vehicle in top shape with our maintenance guides. Learn how to perform basic maintenance tasks and when to seek professional help.</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="premium_section">
+      <ul class="premium_caption" style="display: flex; justify-content: space-between;">
+        <li>
+          <h2>latest cars</h2>
+        </li>
+        <li>
+          <button class="secondary_btn">
+            <p>all</p>
+          </button>
+          <button class="secondary_btn">
+            <p>new </p>
+          </button>
+          <button class="primary_btn">
+            <p>latest</p>
+          </button>
+        </li>
+      </ul>
+      <div class="premium_cars">
+        <ul>
+
+          <img src="asset\silver-luxury-sport-car-port.jpg">
+
+          <li>
+            <h3>toyota honda</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\side-view-white-modern-car-outdoors.jpg">
+
+          <li>
+            <h3>toyota honda</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\pexels-pixabay-358070.jpg">
+
+          <li>
+            <h3>lexus</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\pexels-mike-bird-136872.jpg">
+
+          <li>
+            <h3>mike-bird</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\pexels-jay-pizzle-3802508.jpg">
+
+          <h3>jay-pizzle</h3>
+          <P>
+            Lorem ipsum dolor, sit amet consectetur adipisicing.
+          </P>
+          <h4>
+            price: $4300
+          </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\pexels-mike-bird-116675.jpg">
+
+          <li>
+            <h3>toyota honda</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+          </li>
+        </ul>
+      </div>
+      <hr />
+
+
+      <button class="secondary_btn" style="text-align: center;">
+        <p>view more</p>
+      </button>
+
+    </div>
+
+
+
+    <div class="auto_market">
+      <ul>
+        <li>
+          <h3>
+             auto car cnter
+          </h3>
+          <p>Ready to experience stress-free car shipping? Request a free quote today to get started on your journey with [Your Car Shipping Company]. Simply provide us with the details of your shipment, and we'll handle the rest.</p>
+          <button>
+            go to shop
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="asset\pngwing.com (2).png">
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="premium_section">
+      <h2 style="margin-top: 50px; margin-bottom: 20px; text-align: center;">
+        Lorem, ipsum dolor.
+      </h2>
+      <div class="premium_cars">
+        <ul>
+
+          <img src="asset\pexels-albin-berlin-905554.jpg">
+
+          <li>
+            <h3>toyota albin</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+           
+            <button>purchase</button>
+          </li>
+        </ul>
+        <ul>
+
+          <img src="asset\lexusRx.jpg">
+
+          <li>
+            <h3>lexusRx</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+          
+            <button>purchase</button>
+          </li>
+        </ul>
+
+        <ul>
+
+          <img src="asset\pngkey.com-toyota-innova-png-9519410.png">
+
+          <li>
+            <h3>toyota innovo</h3>
+            <P>
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </P>
+            <h4>
+              price: $4300
+            </h4>
+            <button>purchase</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contact">
+      <ul>
+        <li>
+          <h1>
+            always hear update every day
+          </h1>
+          <p>
+            We love hearing from fellow car enthusiasts. If you have questions, suggestions, or if there's a specific topic you'd like us to cover, don't hesitate to reach out.
+          </p>
+          <form>
+            <input type="email" placeholder="enter touy email">
+            <button class="btn_second">subscribe</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <ul>
+        <li>
+          <h3>Aim</h3>
+          <p>Ready to embark on a journey through the exciting world of automobiles? Start exploring our content today and become a part of the [Your Car Website] community.</p>
+        </li>
+
+      </ul>
+      <ul>
+        <li>
+          <h3>SHOPPING</h3>
+
+        </li>
+
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+
+
+      </ul>
+      <ul>
+        <li>
+          <h3>SHOPPING</h3>
+
+        </li>
+
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+        <li>Return Policy</li>
+      </ul>
+      <ul>
+        <li>
+          <h3>NEWSLETTER</h3>
+        </li>
+        <li>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatum!</P>
+        </li>
+        <li>
+          <form class="subscribe">
+            <ul class="email_send">
+              <li>
+                <input type="email" placeholder="search youtr favorite item" id="search_field">
+        
+              </li>
+              <li>
+                <button>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+
+          </form>
+        </li>
+
+
+      </ul>
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2023 Xbot - All right reserved || Designed by Angus </p>
+
+
+  </footer>
+
+</body>
+
+</html>

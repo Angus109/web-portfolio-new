@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css"
+    integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="ldtada()" class="body_pur"></body>
+  <!------load_spiner-->
+  <div id="loader004"></div>
+
+  <header>
+    <nav>
+      <a href="index.html">
+        <h4 style="color: black;">
+          SHOP<span style="color: red;">RITE</span>
+       </h4>
+ 
+      </a>
+      
+      <ul class="cart_btn">
+        <li>
+          <a href="index.html">
+            <i class="bi bi-handbag-fill"></i>
+          <span class="shopping_bag">new</span>
+          </a>
+        </li>
+  
+        <li>
+          <a  href="#" type="button" class="btn btn-primary"  id="cartButton">
+            <i class="bi bi-cart-check-fill"></i>
+            <span class="total-count"></span></a>
+        </li>
+        <li>
+          <a href="#" class="clear-cart btn btn-danger clear-cart">
+            <i class="bi bi-cart-x-fill"></i>
+          </a>
+        </li>
+  
+      </ul>
+    </nav>
+    
+  </header>
+
+
+
+
+ <main id="hidden">
+   <!-------main-Container-->
+   <div class="prev_items">
+    <div class="wraper_prev">
+      <ul class="w3-content prev_img" style="max-width:1200px">
+        <li class="mySlides active_img" style="width:100%;display:none">
+          <img src="root_img\pngkey.203.png">
+        </li>
+        <li class="mySlides active_img" style="width: 100%; display: block;">
+          <img src="root_img\pngkey.com-barack-obama-face-png-3152883.png">
+        </li>
+        <li class="mySlides active_img" style="width:100%;display:none">
+          <img src="root_img\Red-grey-steel-watch-clock-chronograph-white-vector-PNG.png">
+        </li>
+        </ul>
+
+        <ul class="show-case_prev img_togglers">
+          <li class="prev_one demo w3-opacity w3-hover-opacity-off" style="width:100%;cursor:pointer"
+            onclick="currentDiv(1)">
+            <img src="root_img\pngkey.203.png">
+          </li>
+          <li class="prev_one demo w3-opacity w3-hover-opacity-off" style="width:100%;cursor:pointer"
+            onclick="currentDiv(2)">
+            <img src="root_img\pngkey.com-barack-obama-face-png-3152883.png">
+          </li>
+          <li class="prev_one demo w3-opacity w3-hover-opacity-off" style="width:100%;cursor:pointer"
+            onclick="currentDiv(3)">
+            <img src="root_img\Red-grey-steel-watch-clock-chronograph-white-vector-PNG.png">
+          </li>
+        </ul>
+        </div>
+    
+
+      <div class="prev_text">
+        <h1><b>limon shirt</b></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eius unde dicta quasi dolor neque magnam, non
+          animi. Delectus odit quae nulla est, a distinctio ipsa facere? A esse iure doloremque incidunt accusamus ipsa
+          cupiditate! Beatae enim dicta numquam aut laudantium. Possimus molestias voluptates fugiat, aliquid officia
+          deserunt quia aliquam.
+        </p>
+        <select class="select_opt">
+          <option value="Body size L">Body size XL
+          <option selected value="Body size XL">Body size XL
+          <option value="Body size XXL">Body size XL
+          <option value="Body size XXXL">Body size XL
+        </select>
+        <button class="btn_primary">
+          purchase
+        </button>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="related">
+      <h1>
+        related product
+      </h1>
+  
+        <ul>
+          <li>
+            <img src="root_img\pngkey.com-gucci-png-13509.png">
+            <b>
+              <h4>price:$200</h4>
+            </b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quia.</p>
+            <button class="btn_primary">
+              purchase
+            </button>
+          </li>
+          <li>
+            <img src="root_img\pngkey.com-watches-png-images-3632566.png">
+            <b>
+              <h4>price:$200</h4>
+            </b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quia.</p>
+            <button class="btn_primary">
+              purchase
+            </button>
+          </li>
+          <li>
+            <img src="root_img\pngkey.com-film-grain-png-1277114 (1).png">
+            <b>
+              <h4>price:$200</h4>
+            </b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quia.</p>
+            <button class="btn_primary">
+              purchase
+            </button>
+          </li>
+
+        </ul>
+    </div>
+
+
+ </main>
+ 
+ 
+ <footer id="footer_hidden">
+  <ul class="footer_socials">
+    <li>
+      ps
+      <li>
+        ps
+      </li>
+      <li>
+        ps
+      </li>
+    </li>
+  </ul>
+  <div>
+    
+    <ul>
+      <li>
+        <h3>Download my App</h3>
+        <p>Available for both Android and apple phone users.</p>
+      </li>
+
+    </ul>
+    <ul>
+      <li>
+        <h3>Aim</h3>
+        <p>
+          My Purpose Is To Sustainably Make the Pleasure and Benefits of
+          web Accessible to the Many.
+        </p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <h3>Useful Links</h3>
+      </li>
+      <li><a href="#">Blog Post</a></li>
+      <li><a href="#">Return Policy</a></li>
+      <li><a href="#">Join Affiliate</a></li>
+      <li><a href="#">Buy Bitcion</a></li>
+    </ul>
+    <ul>
+      <li>
+        <h3>Follow Me for More Info</h3>
+      </li>
+      <li>
+        <form class="subscribe">
+          <ul class="email_send">
+            <li>
+              <input type="email" placeholder="search youtr favorite item" id="search_field">
+
+            </li>
+            <li class="footer_btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+              </svg>
+            </li>
+          </ul>
+
+        </form>
+      </li>
+    </ul>
+  </div>
+  <hr />
+  <p class="copyright">Copyright &copy; 2023 Xbot - All right reserved || Designed by Angus </p>
+
+
+</footer>
+
+<!-----------------------shoping cart   -------------->
+
+<div class="cart_cont">
+  <div class="modal" id="cart-modal">
+    <button class="active_close" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+
+
+    <div class="modal-body">
+      <table class="show-cart table">
+
+      </table>
+      <div>Total price: $<span class="total-cart"></span></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-danger clear-cart" id="clearCartButton">Clear Cart</button>
+      <button type="button" class="btn btn-primary order_btn">Order now</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
